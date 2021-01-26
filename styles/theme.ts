@@ -54,4 +54,8 @@ export const theme = {
   fonts: {
     fonts: {},
   },
+  breakpoints: {
+    med: 768,
+    lar: 1024,
+  },
 };

@@ -9,7 +9,7 @@ export const Navbar = () => {
       alignItems="center"
       justifyContent={{ _: 'center', lg: 'space-between' }}
       h="70px"
-      px={{ _: '10px', md: '22%', lg: '500px' }}
+      px={{ _: '10px', md: '10%', lg: '22%', xl: '22%' }}
       position="fixed"
       top={0}
       left={0}
@@ -35,7 +35,7 @@ export const Navbar = () => {
               fontWeight={900}
               mr="20px"
               fontSize="16px"
-              display={{ _: 'none', lg: 'inline-block' }}
+              display={{ _: 'none', sm: 'inline-block' }}
             >
               Home
             </x.div>
@@ -56,7 +56,7 @@ export const Navbar = () => {
               mr="20px"
               color="greyOutline"
               fontSize="16px"
-              display={{ _: 'none', lg: 'inline-block' }}
+              display={{ _: 'none', sm: 'inline-block' }}
             >
               Play
             </x.div>

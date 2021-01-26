@@ -36,6 +36,7 @@ export const PlayWithThem = () => {
         alignItems="center"
         justifyContent="flex-start"
         mb="100px"
+        pl={{ _: '25px', sm: '0' }}
       >
         {gamers.map((gamer) => (
           <Gamer name={gamer} />
