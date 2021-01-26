@@ -4,7 +4,13 @@ import { Gamer } from '../Gamer';
 
 export const PlayWithThem = () => {
   return (
-    <x.div display="flex" flexDirection="column" alignItems="center">
+    <x.div
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+      maxWidth="99vw"
+      overflow="hidden"
+    >
       <x.h2
         fontSize={{ _: '24px', md: '36px' }}
         lineHeight={{ _: '29px', md: '43px' }}
@@ -20,7 +26,7 @@ export const PlayWithThem = () => {
         color="secondaryText"
         mb="35px"
       >
-        Some PROP players and streamers listed
+        Some PRO players and streamers listed
       </x.h3>
       <x.div
         display="flex"
