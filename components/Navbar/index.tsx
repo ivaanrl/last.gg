@@ -10,6 +10,10 @@ export const Navbar = () => {
       justifyContent="center"
       h="70px"
       px={{ _: '10px', md: '10px', lg: '30px' }}
+      position="fixed"
+      top={0}
+      left={0}
+      right={0}
     >
       <x.div mr="50px">
         <Logo />
