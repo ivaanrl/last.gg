@@ -18,7 +18,7 @@ export const HeroBackground = () => {
           lineHeight="220px"
           color="transparent"
           style={{
-            webkitTextStroke: '2px rgba(25,35,48,1)',
+            WebkitTextStroke: '2px rgba(25,35,48,1)',
           }}
         >
           #NOGGS
@@ -29,7 +29,7 @@ export const HeroBackground = () => {
           lineHeight="220px"
           color="transparent"
           style={{
-            webkitTextStroke: '2px rgba(25,35,48,1)',
+            WebkitTextStroke: '2px rgba(25,35,48,1)',
           }}
         >
           #NOGGS
@@ -42,7 +42,7 @@ export const HeroBackground = () => {
           lineHeight="220px"
           color="transparent"
           style={{
-            webkitTextStroke: '2px rgba(25,35,48,1)',
+            WebkitTextStroke: '2px rgba(25,35,48,1)',
           }}
         >
           #NOGGS
@@ -53,7 +53,7 @@ export const HeroBackground = () => {
           lineHeight="220px"
           color="transparent"
           style={{
-            webkitTextStroke: '2px rgba(25,35,48,1)',
+            WebkitTextStroke: '2px rgba(25,35,48,1)',
           }}
         >
           #NOGGS
