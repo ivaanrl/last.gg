@@ -5,12 +5,17 @@ import { Gamer } from '../Gamer';
 export const PlayWithThem = () => {
   return (
     <x.div display="flex" flexDirection="column" alignItems="center">
-      <x.h2 fontSize="36px" lineHeight="43px" fontWeight={900} mb="20px">
+      <x.h2
+        fontSize={{ _: '24px', md: '36px' }}
+        lineHeight={{ _: '29px', md: '43px' }}
+        fontWeight={900}
+        mb="20px"
+      >
         Play with them now
       </x.h2>
       <x.h3
-        fontSize="16px"
-        lineHeight="24px"
+        fontSize={{ _: '14px', md: '16px' }}
+        lineHeight={{ _: '21px', md: '24px' }}
         fontWeight={400}
         color="secondaryText"
         mb="35px"
