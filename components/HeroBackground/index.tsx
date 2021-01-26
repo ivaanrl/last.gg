@@ -1,4 +1,4 @@
-import { x } from '@xstyled/styled-components';
+import { translateX, x } from '@xstyled/styled-components';
 
 export const HeroBackground = () => {
   return (
@@ -8,25 +8,31 @@ export const HeroBackground = () => {
       display="flex"
       flexDirection="column"
       zIndex={-1}
-      left="-320px"
+      left={0}
       right={0}
     >
-      <x.div display="flex">
+      <x.div
+        display="flex"
+        style={{
+          transform: 'translateX(-320px)',
+        }}
+      >
         <x.h1
           fontWeight={900}
           fontSize="288px"
-          lineHeight="220px"
+          lineHeight="260px"
           color="transparent"
           style={{
             WebkitTextStroke: '2px rgba(25,35,48,1)',
           }}
+          mr="80px"
         >
           #NOGGS
         </x.h1>
         <x.h1
           fontWeight={900}
           fontSize="288px"
-          lineHeight="220px"
+          lineHeight="260px"
           color="transparent"
           style={{
             WebkitTextStroke: '2px rgba(25,35,48,1)',
@@ -35,22 +41,28 @@ export const HeroBackground = () => {
           #NOGGS
         </x.h1>
       </x.div>
-      <x.div display="flex">
+      <x.div
+        display="flex"
+        style={{
+          transform: 'translateX(-820px)',
+        }}
+      >
         <x.h1
           fontWeight={900}
           fontSize="288px"
-          lineHeight="220px"
+          lineHeight="260px"
           color="transparent"
           style={{
             WebkitTextStroke: '2px rgba(25,35,48,1)',
           }}
+          mr="80px"
         >
           #NOGGS
         </x.h1>
         <x.h1
           fontWeight={900}
           fontSize="288px"
-          lineHeight="220px"
+          lineHeight="260px"
           color="transparent"
           style={{
             WebkitTextStroke: '2px rgba(25,35,48,1)',
