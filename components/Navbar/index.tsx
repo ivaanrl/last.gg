@@ -28,7 +28,7 @@ export const Navbar = () => {
             hoverCursor="pointer"
             mr="25px"
           >
-            <x.div h="15px" w="15px" mr="10px">
+            <x.div h="18px" w="18px" mr="10px">
               <HomeLogo />
             </x.div>
             <x.div
@@ -48,7 +48,7 @@ export const Navbar = () => {
             hoverCursor="pointer"
             mr={{ _: '0', lg: '50px' }}
           >
-            <x.div h="15px" w="15px" mr="10px">
+            <x.div h="16px" w="16px" mr="10px">
               <PlayLogo color="rgba(50,62,80,1)" />
             </x.div>
             <x.div

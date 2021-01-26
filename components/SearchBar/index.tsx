@@ -22,6 +22,9 @@ export const SearchBar = () => {
           _: 'none',
           lg: 'inline-block',
         }}
+        color="white"
+        height="40px"
+        focusOutline="none"
       ></x.input>
       <x.div h="16px" w="16px">
         <SearchLogo />
