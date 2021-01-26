@@ -8,7 +8,7 @@ export const Hero = () => {
       flexDirection="column"
       alignItems="center"
       justifyContent="center"
-      h="95vh"
+      h="93vh"
       position="relative"
     >
       <x.div h="45px" w="65px">

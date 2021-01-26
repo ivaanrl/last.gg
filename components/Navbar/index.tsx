@@ -14,6 +14,8 @@ export const Navbar = () => {
       top={0}
       left={0}
       right={0}
+      bg="primary"
+      zIndex={10}
     >
       <x.div mr="50px">
         <Logo />
