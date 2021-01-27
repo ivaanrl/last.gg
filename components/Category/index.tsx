@@ -13,10 +13,10 @@ export const Category = ({ icon, title, subtitle }: CategoryProps) => {
       display="flex"
       flexDirection="column"
       alignItems="center"
-      bg="primaryOpaqueDark"
+      bg="primaryOpaque"
       borderRadius="8px"
       py="40px"
-      px={{ _: '120px', md: '35px' }}
+      px={{ _: '80px', md: '35px' }}
       mr={{ _: '0px', md: '15px' }}
       mb={{ _: '20px', lg: '0px' }}
     >

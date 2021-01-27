@@ -21,7 +21,11 @@ export const Categories = () => {
         justifyContent="center"
         flexDirection={{ _: 'column', md: 'row' }}
       >
-        <x.div display="flex" flexDirection={{ _: 'column', lg: 'row' }}>
+        <x.div
+          display="flex"
+          flexDirection={{ _: 'column', lg: 'row' }}
+          px="20px"
+        >
           <Category
             icon={<CelebritiesLogo />}
             title="Celebrities"
@@ -33,7 +37,11 @@ export const Categories = () => {
             subtitle="Sign up and join the community nowSign up and join the "
           />
         </x.div>
-        <x.div display="flex" flexDirection={{ _: 'column', lg: 'row' }}>
+        <x.div
+          display="flex"
+          flexDirection={{ _: 'column', lg: 'row' }}
+          px="20px"
+        >
           <Category
             icon={<ProPlayersLogo />}
             title="Pro Players"
