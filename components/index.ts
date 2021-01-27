@@ -7,3 +7,5 @@ export * from './HeroBackground';
 export * from './Separator';
 export * from './HowItWorks';
 export * from './HowItWorksItem';
+export * from './Categories';
+export * from './Category';

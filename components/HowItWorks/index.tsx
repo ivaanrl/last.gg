@@ -6,35 +6,17 @@ import {
   PlayerOutline,
   PlayOutlineLogo,
 } from '../Logos';
+import { SectionTitle } from '../SectionTitle';
 
 export const HowItWorks = () => {
   return (
     <x.div display="flex" flexDirection="column" alignItems="center" mb="100px">
-      <x.div
-        display="flex"
-        flexDirection="column"
-        alignItems="center"
-        justifyContent="center"
-        mb={{ _: '40px', md: '70px' }}
-        px="20px"
-      >
-        <x.p fontSize="36px" fontWeight={900} color="white">
-          How it works
-        </x.p>
-        <x.p
-          fontSize="16px"
-          fontWeight={400}
-          fontFamily="Object Sans"
-          lineHeight="24px"
-          color="secondaryText"
-          maxWidth="350px"
-          textAlign="center"
-          mt="20px"
-        >
-          High skilled hand picked players. High skilled hand picked players.
-          High
-        </x.p>
-      </x.div>
+      <SectionTitle
+        title="How it works"
+        subtitle="High skilled hand picked players. High skilled hand picked players.
+          High"
+      />
+
       <x.div
         display="flex"
         flexDirection={{ _: 'column', md: 'row' }}
