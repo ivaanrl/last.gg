@@ -10,7 +10,7 @@ import { SectionTitle } from '../SectionTitle';
 
 export const Categories = () => {
   return (
-    <x.div my={{ _: '100px', md: '200px' }}>
+    <x.div my={{ _: '100px', md: '100px' }}>
       <SectionTitle
         title="Categories"
         subtitle="Sign up and join the community nowSign up and join the community now"
