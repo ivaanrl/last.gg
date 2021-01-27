@@ -24,7 +24,7 @@ export const Categories = () => {
         <x.div
           display="flex"
           flexDirection={{ _: 'column', lg: 'row' }}
-          px="20px"
+          px={{ _: '20px', md: '0' }}
         >
           <Category
             icon={<CelebritiesLogo />}
@@ -40,7 +40,7 @@ export const Categories = () => {
         <x.div
           display="flex"
           flexDirection={{ _: 'column', lg: 'row' }}
-          px="20px"
+          px={{ _: '20px', md: '0' }}
         >
           <Category
             icon={<ProPlayersLogo />}

@@ -14,7 +14,12 @@ export const FooterItems = ({ title, links }: FooterItemProps) => {
       </x.p>
       {links.map(({ route, name }) => (
         <Link href={route} passHref>
-          <x.p fontFamily="Object Sans" fontSize="16px" my="15px">
+          <x.p
+            fontFamily="Object Sans"
+            fontSize="12px"
+            color="secondaryText"
+            my="15px"
+          >
             {name}
           </x.p>
         </Link>

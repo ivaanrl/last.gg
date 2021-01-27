@@ -44,7 +44,7 @@ export const Game = ({ imgAlt, imgSrc, name, players }: GameInterface) => {
           position="absolute"
           left="3px"
         />
-        <x.p fontFamily="Object Sans" color="secondaryText">
+        <x.p fontFamily="Object Sans" fontSize="12px" color="secondaryText">
           {players} players
         </x.p>
       </x.div>
