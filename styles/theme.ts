@@ -3,7 +3,7 @@ import { createGlobalStyle, defaultTheme } from '@xstyled/styled-components';
 export const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: 'Object Sans' ;
-    src: url('/fonts/ObjectSans/ObjectSans.otf') format('opentype');
+    src: url('/fonts/ObjectSans/ObjectSans-Regular.otf') format('opentype');
     font-weight:400
   }
 

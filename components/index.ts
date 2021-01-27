@@ -4,3 +4,4 @@ export * from './AuthButtons';
 export * from './SearchBar';
 export * from './Hero';
 export * from './HeroBackground';
+export * from './Separator';

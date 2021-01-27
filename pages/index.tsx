@@ -1,5 +1,5 @@
 import { x } from '@xstyled/styled-components';
-import { Hero } from '../components';
+import { Hero, Separator } from '../components';
 import { PlayWithThem } from '../components/PlayWithThem';
 
 export default function Home() {
@@ -7,6 +7,10 @@ export default function Home() {
     <>
       <Hero />
       <PlayWithThem />
+      <Separator
+        hashtag="NoGGs"
+        text="Get the best gamers in your team in a few clicks"
+      />
     </>
   );
 }
