@@ -46,6 +46,7 @@ export const theme = {
     primaryOpaque: 'rgba(30,41,57,1)',
     primaryOpaqueDark: '#182332',
     secondary: 'rgba(252,223,0,1)',
+    secondaryOpaque: '#424523',
     greyOutline: 'rgba(50,62,80,1)',
     secondaryText: 'rgba(140,155,176,1)',
     primaryText: 'rgba(255,255,255,1)',

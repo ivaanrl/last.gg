@@ -11,3 +11,5 @@ export * from './Categories';
 export * from './Category';
 export * from './Game';
 export * from './Games';
+export * from './Footer';
+export * from './FooterItems';

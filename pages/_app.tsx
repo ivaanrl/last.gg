@@ -1,5 +1,5 @@
 import { ThemeProvider, Preflight } from '@xstyled/styled-components';
-import { Navbar } from '../components';
+import { Footer, Navbar } from '../components';
 import { theme, GlobalStyle } from '../styles/theme';
 
 function MyApp({ Component, pageProps }) {
@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }) {
       <GlobalStyle />
       <Navbar />
       <Component {...pageProps} />
+      <Footer />
     </ThemeProvider>
   );
 }

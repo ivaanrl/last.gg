@@ -280,3 +280,21 @@ export const StreamersLogo = () => {
     </svg>
   );
 };
+
+export const ArrowDiagonalUpLogo = () => {
+  return (
+    <svg
+      width="100%"
+      height="100%"
+      viewBox="0 0 12 12"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 11L11 1M11 1V9.75M11 1H2.25"
+        stroke="#FCDF00"
+        stroke-width="2"
+      />
+    </svg>
+  );
+};

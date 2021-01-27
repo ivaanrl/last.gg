@@ -3,16 +3,21 @@ import { x } from '@xstyled/styled-components';
 export interface SectionTitleProps {
   title: string;
   subtitle: string;
+  noMarginBottom?: boolean;
 }
 
-export const SectionTitle = ({ title, subtitle }: SectionTitleProps) => {
+export const SectionTitle = ({
+  title,
+  subtitle,
+  noMarginBottom,
+}: SectionTitleProps) => {
   return (
     <x.div
       display="flex"
       flexDirection="column"
       alignItems="center"
       justifyContent="center"
-      mb={{ _: '40px', md: '70px' }}
+      mb={noMarginBottom ? '0px' : { _: '40px', md: '70px' }}
       px="20px"
     >
       <x.p fontSize="36px" fontWeight={900} color="white">
