@@ -1,5 +1,5 @@
 import { x } from '@xstyled/styled-components';
-import { Categories, Hero, HowItWorks, Separator } from '../components';
+import { Categories, Games, Hero, HowItWorks, Separator } from '../components';
 import { PlayWithThem } from '../components/PlayWithThem';
 
 export default function Home() {
@@ -13,6 +13,7 @@ export default function Home() {
       />
       <HowItWorks />
       <Categories />
+      <Games />
     </>
   );
 }

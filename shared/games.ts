@@ -1,0 +1,118 @@
+export const games = [
+  {
+    name: 'CS:GO',
+    players: 12,
+    imgSrc: 'CSGO',
+    imgAlt: 'Game portrait',
+  },
+  {
+    name: 'Minecraft',
+    players: 12,
+    imgSrc: 'Minecraft',
+    imgAlt: 'Game portrait',
+  },
+  {
+    name: 'Valorant',
+    players: 12,
+    imgSrc: 'Valorant',
+    imgAlt: 'Game portrait',
+  },
+  {
+    name: 'Dota 2',
+    players: 12,
+    imgSrc: 'Dota',
+    imgAlt: 'Game portrait',
+  },
+  {
+    name: 'Teamfight Tactics',
+    players: 12,
+    imgSrc: 'TFT',
+    imgAlt: 'Game portrait',
+  },
+  {
+    name: 'Playerunkowns battlegrounds',
+    players: 12,
+    imgSrc: 'PUBG',
+    imgAlt: 'Game portrait',
+  },
+  ////////////////////////
+  {
+    name: 'CS:GO',
+    players: 12,
+    imgSrc: 'CSGO',
+    imgAlt: 'Game portrait',
+  },
+  {
+    name: 'Minecraft',
+    players: 12,
+    imgSrc: 'Minecraft',
+    imgAlt: 'Game portrait',
+  },
+  {
+    name: 'League of legends',
+    players: 12,
+    imgSrc: 'LOL',
+    imgAlt: 'Game portrait',
+  },
+  {
+    name: 'Fortnite',
+    players: 12,
+    imgSrc: 'FN',
+    imgAlt: 'Game portrait',
+  },
+  {
+    name: 'Rainbow six siege',
+    players: 12,
+    imgSrc: 'R6',
+    imgAlt: 'Game portrait',
+  },
+  {
+    name: 'Call of Duty: Warzone',
+    players: 12,
+    imgSrc: 'Warzone',
+    imgAlt: 'Game portrait',
+  },
+  ,
+  ////////////////////////////////////
+  {
+    name: "Assasins' creed: Valhalla",
+    players: 12,
+    imgSrc: 'ACV',
+    imgAlt: 'Game portrait',
+  },
+  ,
+  {
+    name: 'Call of Duty: Cold War',
+    players: 12,
+    imgSrc: 'CODCold',
+    imgAlt: 'Game portrait',
+  },
+  ,
+  {
+    name: 'FIFA 21',
+    players: 12,
+    imgSrc: 'FIFA21',
+    imgAlt: 'Game portrait',
+  },
+  ,
+  {
+    name: 'Apex',
+    players: 12,
+    imgSrc: 'Apex',
+    imgAlt: 'Game portrait',
+  },
+  ,
+  {
+    name: 'Rocket league',
+    players: 12,
+    imgSrc: 'RL',
+    imgAlt: 'Game portrait',
+  },
+  ,
+  {
+    name: 'Among Us',
+    players: 12,
+    imgSrc: 'AmongUs',
+    imgAlt: 'Game portrait',
+  },
+];

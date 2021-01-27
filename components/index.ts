@@ -9,3 +9,5 @@ export * from './HowItWorks';
 export * from './HowItWorksItem';
 export * from './Categories';
 export * from './Category';
+export * from './Game';
+export * from './Games';
