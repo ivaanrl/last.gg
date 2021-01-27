@@ -22,7 +22,7 @@ export const Games = () => {
         noMarginBottom
       />
       <Link href="/" passHref>
-        <x.div display="flex" alignItems="center" mt="20px" mb="40px">
+        <x.div display="flex" alignItems="center" mt="20px" mb="60px">
           <x.p
             fontSize="16px"
             color="secondary"
@@ -40,7 +40,7 @@ export const Games = () => {
       <x.div
         display="grid"
         gridTemplateColumns={{ _: 2, sm: 3, md: 4, lg: 5, xl: 6 }}
-        columnGap={8}
+        columnGap={5}
         rowGap={8}
         px="20px"
       >
