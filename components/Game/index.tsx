@@ -34,7 +34,7 @@ export const Game = ({ imgAlt, imgSrc, name, players }: GameInterface) => {
           h="12px"
           w="12px"
           borderRadius="100%"
-          mr="10px"
+          mr="5px"
         ></x.div>
         <x.div
           bg="tertiary"

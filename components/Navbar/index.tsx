@@ -18,7 +18,7 @@ export const Navbar = () => {
       zIndex={10}
     >
       <x.div display="flex" alignItems="center">
-        <x.div mr="50px">
+        <x.div mr={{ _: '30px', lg: '50px' }}>
           <Logo />
         </x.div>
         <Link href="/" passHref>

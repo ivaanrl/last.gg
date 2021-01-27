@@ -14,7 +14,7 @@ export const Footer = () => {
         maxWidth="1200px"
         py="50px"
         px="20px"
-        alignItems="center"
+        alignItems="flex-start"
         justifyContent="center"
       >
         <x.div w="170px" h="46px" position="relative">
@@ -57,7 +57,7 @@ export const Footer = () => {
             ]}
           />
           <x.button
-            h="3rem"
+            h="2.5rem"
             borderRadius="8px"
             fontWeight={900}
             display="flex"
