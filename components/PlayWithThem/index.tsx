@@ -39,7 +39,7 @@ export const PlayWithThem = () => {
         pl={{ _: '25px', sm: '0' }}
       >
         {gamers.map((gamer) => (
-          <Gamer name={gamer} />
+          <Gamer name={gamer} key={gamer} />
         ))}
       </x.div>
     </x.div>

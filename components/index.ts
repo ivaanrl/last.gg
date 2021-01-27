@@ -5,3 +5,5 @@ export * from './SearchBar';
 export * from './Hero';
 export * from './HeroBackground';
 export * from './Separator';
+export * from './HowItWorks';
+export * from './HowItWorksItem';
