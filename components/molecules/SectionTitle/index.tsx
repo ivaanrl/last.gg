@@ -1,16 +1,16 @@
 import { x } from '@xstyled/styled-components';
-
+import { FC } from 'react';
 export interface SectionTitleProps {
   title: string;
   subtitle: string;
   noMarginBottom?: boolean;
 }
 
-export const SectionTitle = ({
+export const SectionTitle: FC<SectionTitleProps> = ({
   title,
   subtitle,
   noMarginBottom,
-}: SectionTitleProps) => {
+}) => {
   return (
     <x.div
       display="flex"

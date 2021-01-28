@@ -1,7 +1,11 @@
 import { x } from '@xstyled/styled-components';
-import { Categories, Games, Hero, HowItWorks, Separator } from '../components';
-import { PlayWithThem } from '../components/PlayWithThem';
-
+import { Hero, Separator } from '../components/molecules';
+import {
+  PlayWithThem,
+  HowItWorks,
+  Categories,
+  Games,
+} from '../components/organisms';
 export default function Home() {
   return (
     <>

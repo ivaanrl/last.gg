@@ -1,22 +1,36 @@
 import { x } from '@xstyled/styled-components';
-import { HowItWorksItem } from '../HowItWorksItem';
+import { HowItWorksItem } from '../../molecules';
 import {
   AddLogo,
   ChevronRightLogo,
   PlayerOutline,
   PlayOutlineLogo,
-} from '../Logos';
-import { SectionTitle } from '../SectionTitle';
+} from '../../atoms';
 
 export const HowItWorks = () => {
   return (
     <x.div display="flex" flexDirection="column" alignItems="center" mb="100px">
-      <SectionTitle
-        title="How it works"
-        subtitle="High skilled hand picked players. High skilled hand picked players.
-          High"
-      />
-
+      <x.h1
+        fontSize="36px"
+        fontWeight="900"
+        textAlign="center"
+        maxWidth="700px"
+        lineHeight={{ _: '43.2px', md: '76.8px' }}
+      >
+        How it works
+      </x.h1>
+      <x.h3
+        fontSize={{ _: '16px', md: '18px' }}
+        lineHeight={{ _: '24px', md: '27px' }}
+        textAlign="center"
+        color="secondaryText"
+        maxWidth="490px"
+        mt="20px"
+        mb={{ _: '30px', md: '60px' }}
+        px="20px"
+      >
+        High skilled hand picked players. High skilled hand picked players. High
+      </x.h3>
       <x.div
         display="flex"
         flexDirection={{ _: 'column', md: 'row' }}

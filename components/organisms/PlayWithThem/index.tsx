@@ -1,6 +1,6 @@
 import { x } from '@xstyled/styled-components';
-import { gamers } from '../../shared/gamers';
-import { Gamer } from '../Gamer';
+import { gamers } from '../../../shared/gamers';
+import { Gamer } from '../../molecules';
 
 export const PlayWithThem = () => {
   return (
@@ -12,7 +12,7 @@ export const PlayWithThem = () => {
       overflow="hidden"
     >
       <x.h2
-        fontSize={{ _: '24px', md: '36px' }}
+        fontSize="36px"
         lineHeight={{ _: '29px', md: '43px' }}
         fontWeight={900}
         mb="20px"

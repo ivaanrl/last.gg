@@ -1,20 +1,41 @@
 import { x } from '@xstyled/styled-components';
-import { Category } from '../Category';
+import { Category } from '../../molecules';
 import {
   CelebritiesLogo,
   CoachesLogo,
   ProPlayersLogo,
   StreamersLogo,
-} from '../Logos';
-import { SectionTitle } from '../SectionTitle';
+} from '../../atoms';
 
 export const Categories = () => {
   return (
-    <x.div my={{ _: '100px', md: '100px' }}>
-      <SectionTitle
-        title="Categories"
-        subtitle="Sign up and join the community nowSign up and join the community now"
-      />
+    <x.div
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+      my={{ _: '100px', md: '100px' }}
+    >
+      <x.h1
+        fontSize="36px"
+        fontWeight="900"
+        textAlign="center"
+        maxWidth="700px"
+        lineHeight={{ _: '43.2px', md: '76.8px' }}
+      >
+        Categories
+      </x.h1>
+      <x.h3
+        fontSize={{ _: '16px', md: '18px' }}
+        lineHeight={{ _: '24px', md: '27px' }}
+        textAlign="center"
+        color="secondaryText"
+        maxWidth="490px"
+        mb={{ _: '30px', md: '60px' }}
+        px="20px"
+        mt="20px"
+      >
+        Sign up and join the community nowSign up and join the community now
+      </x.h3>
       <x.div
         display="flex"
         alignItems="center"

@@ -1,7 +1,10 @@
+import { FC } from 'react';
 import { x } from '@xstyled/styled-components';
-import { SearchLogo } from '../Logos';
+import { SearchLogo } from '../../atoms';
 
-export const SearchBar = () => {
+export interface SearchbarProps {}
+
+export const Searchbar: FC<SearchbarProps> = () => {
   return (
     <x.div
       borderRadius="8px"

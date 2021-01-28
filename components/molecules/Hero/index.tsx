@@ -1,7 +1,12 @@
+import React, { FC } from 'react';
+import { ControllerOutline, HeroBackground, ArrowLogo, AddLogo } from '..';
+export { ControllerOutline, ArrowLogo, AddLogo } from '../../atoms';
 import { x } from '@xstyled/styled-components';
-import { HeroBackground, AuthButtons, ControllerOutline } from '..';
+import { SecondaryButton, PrimaryButton } from '../../atoms';
 
-export const Hero = () => {
+export interface HeroProps {}
+
+export const Hero: FC<HeroProps> = () => {
   return (
     <x.div
       display="flex"
@@ -38,7 +43,26 @@ export const Hero = () => {
         streamers and PROs
       </x.h3>
       <HeroBackground />
-      <AuthButtons />
+      <x.div display="flex" alignItems="center">
+        <SecondaryButton
+          h="btnMd"
+          mr="20px"
+          minWidth="fit-content"
+          fontSize="16px"
+        >
+          <x.div h="16px" w="16px" mr="10px">
+            <ArrowLogo />
+          </x.div>
+          <x.p>Log in</x.p>
+        </SecondaryButton>
+
+        <PrimaryButton h="btnMd" fontSize="16px" minWidth="fit-content">
+          <x.div h="16px" w="16px" mr="10px">
+            <AddLogo />
+          </x.div>
+          <x.p>Join now</x.p>
+        </PrimaryButton>
+      </x.div>
     </x.div>
   );
 };

@@ -1,8 +1,8 @@
 import { x } from '@xstyled/styled-components';
 import Link from 'next/link';
-import { games } from '../../shared/games';
-import { Game } from '../Game';
-import { ArrowDiagonalUpLogo } from '../Logos';
+import { games } from '../../../shared/games';
+import { Game } from '../../molecules';
+import { ArrowDiagonalUpLogo } from '../../atoms';
 import { SectionTitle } from '../SectionTitle';
 
 export const Games = () => {
@@ -16,11 +16,27 @@ export const Games = () => {
       margin="auto"
       mb={{ _: '70px', md: '100px' }}
     >
-      <SectionTitle
-        title="Games"
-        subtitle="Sign up and join the community now Sign up and join the community now to continue"
-        noMarginBottom
-      />
+      <x.h1
+        fontSize="36px"
+        fontWeight="900"
+        textAlign="center"
+        maxWidth="700px"
+        lineHeight={{ _: '43.2px', md: '76.8px' }}
+      >
+        Games
+      </x.h1>
+      <x.h3
+        fontSize={{ _: '16px', md: '18px' }}
+        lineHeight={{ _: '24px', md: '27px' }}
+        textAlign="center"
+        color="secondaryText"
+        maxWidth="490px"
+        px="20px"
+        mt="20px"
+      >
+        Sign up and join the community now Sign up and join the community now to
+        continue
+      </x.h3>
       <Link href="/" passHref>
         <x.div display="flex" alignItems="center" mt="20px" mb="60px">
           <x.p

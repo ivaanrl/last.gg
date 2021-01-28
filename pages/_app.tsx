@@ -1,5 +1,6 @@
 import { ThemeProvider, Preflight } from '@xstyled/styled-components';
-import { Footer, Navbar } from '../components';
+import { Footer } from '../components/molecules';
+import { Navbar } from '../components/organisms';
 import { theme, GlobalStyle } from '../styles/theme';
 
 function MyApp({ Component, pageProps }) {

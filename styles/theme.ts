@@ -55,8 +55,13 @@ export const theme = {
   fonts: {
     fonts: {},
   },
-  breakpoints: {
-    med: 768,
-    lar: 1024,
+  radii: {
+    ...defaultTheme.radii,
+    default: '8px',
+  },
+  sizes: {
+    ...defaultTheme.sizes,
+    btnSm: '2.5rem',
+    btnMd: '3rem',
   },
 };
