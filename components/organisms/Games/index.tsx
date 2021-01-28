@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { games } from '../../../shared/games';
 import { Game } from '../../molecules';
 import { ArrowDiagonalUpLogo } from '../../atoms';
-import { SectionTitle } from '../SectionTitle';
 
 export const Games = () => {
   return (

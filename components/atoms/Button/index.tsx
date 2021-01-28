@@ -4,12 +4,13 @@ import { FC } from 'react';
 import { StyledComponent } from 'styled-components';
 
 export const PrimaryButton: FC<
-  StyledComponent<
-    'button',
-    DefaultTheme,
-    SystemProps<Record<string | number, unknown> & DefaultTheme>,
-    any
-  >
+  | StyledComponent<
+      'button',
+      DefaultTheme,
+      SystemProps<Record<string | number, unknown> & DefaultTheme>,
+      any
+    >
+  | any
 > = (props) => {
   return (
     <x.button
@@ -26,12 +27,13 @@ export const PrimaryButton: FC<
 };
 
 export const SecondaryButton: FC<
-  StyledComponent<
-    'button',
-    DefaultTheme,
-    SystemProps<Record<string | number, unknown> & DefaultTheme>,
-    any
-  >
+  | StyledComponent<
+      'button',
+      DefaultTheme,
+      SystemProps<Record<string | number, unknown> & DefaultTheme>,
+      any
+    >
+  | any
 > = (props) => {
   return (
     <x.button

@@ -30,7 +30,7 @@ export const PlayWithThem = () => {
       </x.h3>
       <x.div
         display="flex"
-        flexWrap="no-wrap"
+        flexWrap="nowrap"
         overflow="hidden"
         maxWidth="99vw"
         alignItems="center"
